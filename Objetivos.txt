@@ -1,0 +1,35 @@
+MÍNIMO QUE PUEDE CONTENER TU PAGINA:
+
+- HOME (PÁGINA DE INICIO) - 
+	Cambiar Imagenes, 
+	colores, 
+	nombre del sitio, 
+	Logo del sitio, 
+	Nombres de los invitados, 
+	Precios y contenido de los pases, Cambiar la ubicacion y el tooltip, Adaptar navegacion, 
+
+- PRODUCTOS / SERVICIOS (SEGÚN SU SITIO)(Esta sera la pagina de reservaciones) - Agregar Calendario estatico 
+
+- PÁGINA SOBRE NOSOTROS (QUIÉNES SOMOS) -  Agregar Esta Seccion a la navegacion
+
+- PÁGINA DE CONTACTO - Agregar esta seccion, meter formulario
+
+- PÁGINA DE LOCALIZACIÓN - Agregara esta seccion con el mapa e informacion extra
+
+- MOTOR DE BÚSQUEDA (OPCIONAL) - Salaverga
+
+- BOTONES A REDES SOCIALES - Agregarle los links a redes sociales, Cambiar pinterest(nadie usa esa mmamda) por discord o algo por el estilo
+
+ 
+
+CARACTERÍSTICAS MÍNIMAS DE DISEÑO:
+
+CONTENIDO DE CALIDAD
+
+COLORES ADECUADOS
+
+TAMAÑO DE FUENTE ADECUADOS
+
+INTERFAZ AMIGABLE (FACILIDAD DE NAVEGACIÓN)
+
+BUEN DISEÑO GRÁFICO (IMÁGENES WEB OPTIMIZADAS)
