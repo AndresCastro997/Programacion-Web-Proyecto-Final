@@ -1,0 +1,80 @@
+/*Formulario*/
+
+.contenedor-c {
+    width: 95%;
+    max-width: 120rem;
+    /**= 1200px**/
+    margin: 0 auto;
+    /* centrar elementos*/
+}
+
+.seccion-c {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenido-centrado-c {
+    max-width: 800px;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto-c {
+    text-align: center;
+}
+
+form p {
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+
+legend {
+    font-size: 2.4rem;
+    color: #4f4f4f;
+}
+
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+textarea {
+    height: 20rem;
+}
+
+.forma-contacto-contacto {
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-form {
+    text-align: left!important;
+}

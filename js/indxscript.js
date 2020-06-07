@@ -6,16 +6,16 @@
     document.addEventListener('DOMContentLoaded', function() {
 
         //google maps impostor
-        var map = L.map('mapa').setView([24.747377, -107.553052], 17);
+        var map = L.map('mapa').setView([24.78884, -107.39738], 17);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
-        L.marker([24.747377, -107.553052]).addTo(map)
-            .bindPopup('Casa de pepillo')
+        L.marker([24.78884, -107.39738]).addTo(map)
+            .bindPopup('Instituto Tecnologico de Culiacan')
             .openPopup()
-            .bindTooltip('aqui vive el vrga')
+            .bindTooltip('esta es la ubicacion del evento')
             .openTooltip();
 
 
@@ -76,7 +76,7 @@ $(function() {
 
     //Cuenta regresiva:
 
-    $('.cuenta-regresiva').countdown('2020/11/12 09:02:00', function(event) {
+    $('.cuenta-regresiva').countdown('2020/6/19 03:00:00', function(event) {
 
         $('#dias').html(event.strftime('%D'));
         $('#horas').html(event.strftime('%H'));

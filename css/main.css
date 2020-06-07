@@ -133,6 +133,17 @@ body {
     margin: 0 auto;
 }
 
+.contenedor a {
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .6s ease;
+    justify-content: center;
+}
+
 @media (min-width: 480px) {
     .contenedor {
         /*para que no se expanda hasta la orilla del navegador*/
@@ -152,6 +163,7 @@ body {
         /*para que no se expanda hasta la orilla del navegador*/
         width: 90%;
         max-width: 1100px;
+        justify-content: center;
     }
 }
 
@@ -174,7 +186,7 @@ h2 {
 h2::after {
     content: '';
     margin: 0 auto;
-    background-image: url(../img/separador.png);
+    /* background-image: url(../img/separador.png); */
     height: 30px;
     width: 100px;
     display: block;
@@ -182,13 +194,13 @@ h2::after {
 
 h3 {
     font-size: 1.4em;
-    color: #fe4918;
+    color: #1B396A;
     font-family: 'PT Sans', sans-serif;
     margin: 0;
 }
 
 .button {
-    background-color: #fe4918;
+    background-color: #1B396A;
     padding: 10px 40px;
     color: white;
     text-transform: uppercase;
@@ -199,13 +211,13 @@ h3 {
     margin-top: 20px;
     display: inline-block;
     transition: all .3s ease;
-    border: 2px solid #fe4918;
+    border: 2px solid #1B396A;
 }
 
 .button.hollow,
 .button.hollow:hover {
     background-color: #fff;
-    color: #fe4918;
+    color: #1B396A;
 }
 
 .button.transparente {
@@ -214,7 +226,7 @@ h3 {
 }
 
 .button.transparente:hover {
-    border: 2px solid #fe4918;
+    border: 2px solid #1B396A;
 }
 
 ul {
@@ -291,7 +303,7 @@ h1.nombre-sitio span {
 
 .hero {
     /*imagen de fondo:*/
-    background-image: url(../img/encabezado.jpg);
+    background-image: url(../img-header.jpg!d);
     /*100 de la ventana:*/
     height: 100vh;
     /*centrar  y ajustar imagen:*/
@@ -314,9 +326,13 @@ h1.nombre-sitio span {
 }
 
 .redes-sociales a {
-    color: white;
+    color: blanchedalmond;
     font-size: 2em;
     margin-right: 20px;
+}
+
+.redes-sociales a:hover {
+    color: #1B396A;
 }
 
 
@@ -349,7 +365,7 @@ h1.nombre-sitio span {
 }
 
 .informacion-evento p i {
-    color: #fe4918;
+    color: white;
     font-size: 2.4rem;
 }
 
@@ -385,10 +401,17 @@ h1.nombre-sitio span {
 }
 
 
+/*localizacion*/
+
+.direccion {
+    text-align: left;
+}
+
+
 /*Barra*/
 
 .barra {
-    background-color: #353535;
+    background-color: #5B5757;
     padding: 20px 0;
 }
 
@@ -418,6 +441,13 @@ h1.nombre-sitio span {
 
 /*Navegacion  Principal*/
 
+.navegacion2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
 .navegacion-principal {
     display: none;
     width: 100%;
@@ -437,16 +467,20 @@ h1.nombre-sitio span {
 }
 
 .navegacion-principal a:hover {
-    color: #fe4918;
+    color: #1B396A;
+}
+
+.contenedor a:hover {
+    color: #1B396A;
 }
 
 .navegacion-principal a:last-child {
-    border: 2px solid #fe4918;
+    border: 2px solid #1B396A;
 }
 
 .navegacion-principal a:last-child:hover {
     color: white;
-    background-color: #fe4918;
+    background-color: #1B396A;
 }
 
 @media (min-width: 768px) {
@@ -553,7 +587,7 @@ h1.nombre-sitio span {
     font-size: 1.2em;
     position: relative;
     padding-bottom: 10px;
-    border-bottom: 1px solid #fe4918;
+    border-bottom: 1px solid #1B396A;
 }
 
 .menu-programa a.activo::after {
@@ -565,10 +599,62 @@ h1.nombre-sitio span {
     margin-right: auto;
     height: 20px;
     width: 30px;
-    background-image: url(../img/talleres-flecha.jpg);
+    /* background-image: url(../img/talleres-flecha.jpg); */
     background-position: top center;
     background-repeat: no-repeat;
     bottom: -20px;
+}
+
+
+/*Calendario*/
+
+div.calendario h3 {
+    background-color: #1B396A;
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.calendario::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.dia {
+    width: 50%;
+    float: left;
+    border: 2px solid #e1e1e1;
+    transition: all .3s ease;
+}
+
+@media (min-width: 768px) {
+    .dia {
+        width: 33.3%;
+        min-height: 240px;
+        padding-top: 20px;
+    }
+}
+
+.dia:hover {
+    background-color: #e1e1e1;
+    transform: scale(1.1);
+}
+
+.dia .titulo {
+    color: #1B396A;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.dia p {
+    font-size: 1em;
+}
+
+.dia i {
+    color: #1B396A;
+    font-size: 1.6em;
 }
 
 @media (min-width: 768px) {
@@ -579,13 +665,18 @@ h1.nombre-sitio span {
 
 .menu-programa a i,
 .detalle-evento p i {
-    color: #fe4918;
+    color: #1B396A;
     font-size: 1.6em;
     margin-right: 10px;
 }
 
 .ocultar {
     display: none;
+}
+
+.nombres {
+    font-weight: bold;
+    text-align: left!important;
 }
 
 
@@ -653,9 +744,10 @@ h1.nombre-sitio span {
     width: 100%;
     text-align: left;
     font-family: 'Oswald', sans-serif;
-    color: #fe4918;
+    color: #1B396A;
     text-transform: uppercase;
     -webkit-transition: all .5s ease-in-out;
+    font-weight: bold;
 }
 
 .invitado:hover p {
@@ -686,7 +778,7 @@ h1.nombre-sitio span {
 }
 
 .contador::before {
-    background-image: url(../img/bg-resumen.jpg);
+    background-image: url(../paralax1.jpg);
     content: '';
 }
 
@@ -712,7 +804,7 @@ h1.nombre-sitio span {
 }
 
 .numero {
-    color: #fe4918;
+    color: #1B396A;
     font-size: 4em;
     font-weight: bold;
     display: block;
@@ -751,7 +843,7 @@ h1.nombre-sitio span {
 
 .tabla-precio:hover {
     transform: scale(1.1);
-    border: 1px solid #fe4918;
+    border: 1px solid #1B396A;
     box-shadow: 0px 0px 50px #666;
 }
 
@@ -836,7 +928,7 @@ blockquote p::before {
     margin: 0;
     padding: 0;
     line-height: 1;
-    color: #fe4918;
+    color: #1B396A;
 }
 
 footer.info-testimonial {
@@ -853,7 +945,7 @@ footer.info-testimonial img {
 
 footer.info-testimonial cite {
     text-align: left;
-    color: #fe4918;
+    color: #1B396A;
     text-transform: uppercase;
     font-size: 12px;
     padding-top: 20px;
@@ -879,7 +971,7 @@ footer.info-testimonial cite span {
 }
 
 .newsletter::before {
-    background-image: url(../img/bg-newsletter.jpg);
+    background-image: url(../paralax2.jpg);
     content: '';
 }
 
@@ -923,7 +1015,7 @@ footer.info-testimonial cite span {
 /*footer*/
 
 footer {
-    background-color: #353535;
+    background-color: #5B5757;
     padding-top: 40px;
     margin-top: 20px;
 }
@@ -949,7 +1041,7 @@ footer h3 {
 }
 
 footer h3 span {
-    color: #fe4918;
+    color: #1B396A;
 }
 
 footer .ultimos-twits li {
@@ -975,7 +1067,7 @@ footer nav.redes-sociales {
 /*Conferencia*/
 
 .conferencia .navegacion-principal .activo {
-    border-bottom: 2px solid #fe4918;
+    border-bottom: 2px solid #1B396A;
 }
 
 .galeria {
@@ -1004,7 +1096,7 @@ footer nav.redes-sociales {
 h4 {
     text-align: center;
     text-transform: uppercase;
-    border-bottom: 2px solid #fe4918;
+    border-bottom: 2px solid #1B396A;
     padding-bottom: 10px;
     font-size: 1.2em;
 }
@@ -1065,7 +1157,7 @@ h4 {
 }
 
 .contenido-dia>div label time {
-    color: #fe4918;
+    color: #1B396A;
     font-weight: bold;
 }
 
@@ -1112,7 +1204,7 @@ h4 {
 #suma-total {
     text-align: center;
     font-size: 2em;
-    color: #fe4918;
+    color: #1B396A;
 }
 
 #error {

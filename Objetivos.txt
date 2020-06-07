@@ -1,6 +1,6 @@
-MÍNIMO QUE PUEDE CONTENER TU PAGINA:
+Mï¿½NIMO QUE PUEDE CONTENER TU PAGINA:
 
-- HOME (PÁGINA DE INICIO) - 
+- HOME (Pï¿½GINA DE INICIO) - 
 	Cambiar Imagenes, 
 	colores, 
 	nombre del sitio, 
@@ -8,28 +8,33 @@ MÍNIMO QUE PUEDE CONTENER TU PAGINA:
 	Nombres de los invitados, 
 	Precios y contenido de los pases, Cambiar la ubicacion y el tooltip, Adaptar navegacion, 
 
-- PRODUCTOS / SERVICIOS (SEGÚN SU SITIO)(Esta sera la pagina de reservaciones) - Agregar Calendario estatico 
+- PRODUCTOS / SERVICIOS (SEGï¿½N SU SITIO)(Esta sera la pagina de reservaciones) - Agregar Calendario estatico 
 
-- PÁGINA SOBRE NOSOTROS (QUIÉNES SOMOS) -  Agregar Esta Seccion a la navegacion
+- Pï¿½GINA SOBRE NOSOTROS (QUIï¿½NES SOMOS) -  Agregar Esta Seccion a la navegacion
 
-- PÁGINA DE CONTACTO - Agregar esta seccion, meter formulario
+- Pï¿½GINA DE CONTACTO - Agregar esta seccion, meter formulario
 
-- PÁGINA DE LOCALIZACIÓN - Agregara esta seccion con el mapa e informacion extra
+- Pï¿½GINA DE LOCALIZACIï¿½N - Agregara esta seccion con el mapa e informacion extra
 
-- MOTOR DE BÚSQUEDA (OPCIONAL) - Salaverga
+- MOTOR DE Bï¿½SQUEDA (OPCIONAL) - Salaverga
 
 - BOTONES A REDES SOCIALES - Agregarle los links a redes sociales, Cambiar pinterest(nadie usa esa mmamda) por discord o algo por el estilo
 
  
 
-CARACTERÍSTICAS MÍNIMAS DE DISEÑO:
+CARACTERï¿½STICAS Mï¿½NIMAS DE DISEï¿½O:
 
 CONTENIDO DE CALIDAD
 
 COLORES ADECUADOS
 
-TAMAÑO DE FUENTE ADECUADOS
+TAMAï¿½O DE FUENTE ADECUADOS
 
-INTERFAZ AMIGABLE (FACILIDAD DE NAVEGACIÓN)
+INTERFAZ AMIGABLE (FACILIDAD DE NAVEGACIï¿½N)
 
-BUEN DISEÑO GRÁFICO (IMÁGENES WEB OPTIMIZADAS)
+BUEN DISEï¿½O GRï¿½FICO (IMï¿½GENES WEB OPTIMIZADAS)
+
+
+
+
+

@@ -71,7 +71,7 @@
                     console.log("Boletos Completos: " + boletoCompleto);
 
                     var totalPagar =
-                        (boletosDia * 30) + (boletos2Dias * 45) + (boletoCompleto * 50) + ((cantCamisas * 10) * .93) + (cantEtiquetas * 2);
+                        (boletosDia * 50) + (boletos2Dias * 150) + (boletoCompleto * 250) + ((cantCamisas * 10) * .93) + (cantEtiquetas * 2);
 
                     console.log("Total a pagar: " + totalPagar);
 
