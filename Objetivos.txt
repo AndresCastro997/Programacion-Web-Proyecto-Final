@@ -1,4 +1,4 @@
-M�NIMO QUE PUEDE CONTENER TU PAGINA:
+﻿M�NIMO QUE PUEDE CONTENER TU PAGINA:
 
 - HOME (P�GINA DE INICIO) - 
 	Cambiar Imagenes, 
@@ -16,9 +16,9 @@ M�NIMO QUE PUEDE CONTENER TU PAGINA:
 
 - P�GINA DE LOCALIZACI�N - Agregara esta seccion con el mapa e informacion extra
 
-- MOTOR DE B�SQUEDA (OPCIONAL) - Salaverga
+- MOTOR DE B�SQUEDA (OPCIONAL) - 
 
-- BOTONES A REDES SOCIALES - Agregarle los links a redes sociales, Cambiar pinterest(nadie usa esa mmamda) por discord o algo por el estilo
+- BOTONES A REDES SOCIALES - Agregarle los links a redes sociales
 
  
 
